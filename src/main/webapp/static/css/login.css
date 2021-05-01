@@ -1,0 +1,199 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body a {
+    color: red;
+    transition: 0.5s all;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+body a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+input[type="button"],
+input[type="submit"] {
+    transition: 0.5s all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+label {
+    margin: 0;
+    color: white;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+
+/*-- //Reset-Code --*/
+
+body {
+  /* background: url('../Images/a.jpeg') repeat; */
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.agile-login {
+    padding-top: 60px;
+    background: url('../Images/a.jpeg') repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 450px;
+    margin: auto;
+    /* border-radius: 20px; */
+    text-align: center;
+    opacity: .8;
+    background-color: rgb(6, 47, 70);
+}
+
+.w3ls-form {
+    display: inline-block;
+    width: 350px;
+    margin: auto;
+    color: white;
+    text-align: left;
+}
+
+label,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.option {
+	outline: 0;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+    /* background-color: rgba(31, 248, 255, 0.59); */
+    background-color: rgba(87, 102, 103, 0.59);
+    color: white;
+    width: 90%;
+    letter-spacing: 1px;
+}
+
+input[type="text"] ,
+input[type="email"],
+select[id="ddmenu"],
+input[type="password"]{
+    outline: 0;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+    /* background-color: rgba(31, 248, 255, 0.59); */
+    background-color: rgba(87, 102, 103, 0.59);
+    color: white;
+    width: 90%;
+    letter-spacing: 1px;
+}
+
+.agile-login h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.wrapper h2,
+h3 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+a.pass {
+    font-size: 15px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.w3ls-form a {
+    display: block;
+    text-align: right;
+    margin: 15px 0px;
+}
+
+label {
+    margin: 20px 0px 8px 15px;
+    font-size: 13px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input[type="submit"] {
+    margin: 20px auto;
+    padding: 9px 60px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    outline: 0;
+    border: 1px solid #4f5d61;
+    cursor: pointer;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+    color: #fff;
+    background-color: rgba(0, 245, 255, 0.69);
+}
+
+.btn {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.541);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
